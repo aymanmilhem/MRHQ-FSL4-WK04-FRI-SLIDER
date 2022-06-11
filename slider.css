@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #3206ff, #eb1b60);
+    background: linear-gradient(135deg, #06011d, #4e011b);
     min-height: 100vh;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .caption {
-    color: #eb1b60;
+    color: #6e2840;
     font-size: 20px;
     padding: 8px 12px;
     position: absolute;

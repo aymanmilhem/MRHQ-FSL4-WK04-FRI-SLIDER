@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./slider.css" type="text/css">
+    <title>Document</title>
+    
+    <script defer src="slider.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <div class="slider__slides">
+          <div class="slider__slide active">
+            <div class="caption">Caption ONE</div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Akaroa%2C_New_Zealand.jpg"
+              alt="A rooftop in Japan"
+            />
+          </div>
+          <div class="slider__slide">
+            <div class="caption">Caption TWO</div>
+            <img
+              src="https://p-airnz.com/cms/assets/Common-Assets/Destination-Images/new-zealand-water-city-mt-maunganui-2100x1395__ScaleMaxWidthWzEwNDBd.jpg"
+              alt="A castle in Scotland"
+            />
+          </div>
+          <div class="slider__slide">
+            <div class="caption">Caption THREE</div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Wellington_city_with_Cable_Car.jpg"
+              alt="A street market in China"
+            />
+          </div>
+          <div class="slider__slide">
+            <div class="caption">Caption FOUR</div>
+            <img
+              src="https://www.greatjourneysofnz.co.nz/assets/packages/Destinations-Christchurch-tram-on-New-Regent-Street-1000x680-2.jpg"
+              alt="A statue of the Buddha in Thailand"
+            />
+          </div>
+        </div>
+        <div id="nav-button--prev" class="slider__nav-button"></div>
+        <div id="nav-button--next" class="slider__nav-button"></div>
+        <div class="slider__nav">
+          <div class="slider__dots active"></div>
+          <div class="slider__dots"></div>
+          <div class="slider__dots"></div>
+          <div class="slider__dots"></div>
+        </div>
+      </div>
+    </div>
+    <div class="form--container">
+      <h1>Add a custom caption</h1>
+      <input type="text" />
+      <select id="photos">
+        <option value="photo1">Photo 1</option>
+        <option value="photo2">Photo 2</option>
+        <option value="photo3">Photo 3</option>
+        <option value="photo4">Photo 4</option>
+      </select>
+      <button class="caption-btn">Add caption</button>
+    </div>
+  </body>
+</html>

@@ -92,17 +92,19 @@ body {
     padding: 3px;
     width: 40%;
     height: 40%;
+    top: 50%;
+    right: 50%;
 }
 
 #nav-button--next::after {
-    top: 50%;
-    right: 50%;
+    /* top: 50%;
+    right: 50%; */
     transform: translate(25%, -50%) rotate(-45deg);
 }
 
 #nav-button--prev::after {
-    top: 50%;
-    right: 50%;
+    /* top: 50%;
+    right: 50%; */
     transform: translate(75%, -50%) rotate(135deg);
 }
 
